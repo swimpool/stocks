@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #chameleon-widget {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.chameleon-widget-message-block .widget-config {
+  max-width: 90%;
+}
+
+body.not-chameleon {
+  background-color: #555;
+}
+
+.not-chameleon #chameleon-widget {
+  width: 400px;
+  height: 800px;
+  border: 2px solid #ddd;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+#stocks-table {
+  display: table;
+  width: 100%;
+  font-family: 'Roboto-Light';
+  font-size: 1.6em;
+  border-spacing: 0;
+}
+
+.stock {
+  display: table-row;
+}
+
+.stock:first-child {
+  padding-top: 0;
+}
+
+.stock .number {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.stock .important {
+  font-family: 'Roboto-Medium';
+}
+
+.stock .positive {
+  color: rgb(100, 255, 100);
+}
+
+.stock .negative {
+  color: rgb(255, 130, 130);
+}
+
+
+.stock > * {
+  display: table-cell;
+  vertical-align:  middle;
+  padding: 0.1em 0.5em 0;
+}
+
+@media (max-width: 500px) {
+  .stock .hide-if-small {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .stock .hide-if-tiny {
+    display: none;
+  }
+}
+

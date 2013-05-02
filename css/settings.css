@@ -1,0 +1,41 @@
+#chameleon-widget-settings header {
+  background-color: #38761D;
+}
+
+/* #chameleon-widget-settings label.checkbox-label {
+  text-transform: none !important;
+  font-size: 12px !important;
+}
+ */
+
+/* #chameleon-widget-settings label.checkbox-label input[type="checkbox"] {
+  display: inline;
+  float: left;
+}
+ */
+
+#symbol-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#symbol-list li {
+  font-family: 'Roboto-Light';
+  padding-top: 0.5em;
+  clear: both;
+}
+
+#symbol-list li .symbol-delete {
+  font-family: 'Roboto-Bold';
+  font-size: 1.5em;
+  line-height: 0.8em;
+  display: block;
+  float: left;
+  margin-right: 0.5em;
+}
+
+#symbol-list li .symbol-name {
+  display: block;
+  float: left;
+}
