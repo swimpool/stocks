@@ -4,7 +4,9 @@
 
 Chameleon Launcher widget for keeping an eye on the stock market.
 
-**Current Version:** _Not Yet Released_
+**Current Version:** 0.2.3
+
+### [Install in Chameleon][2] | [More Details][3]
 
 ## License
 
